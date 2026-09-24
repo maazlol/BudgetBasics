@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Needs vs Wants Infographic",
+    "topic": "needs-wants",
+    "image": "/images/infographic-needs-wants.svg",
+    "caption": "A side-by-side breakdown of essential spending versus optional treats.",
+    "alt": "Infographic comparing needs and wants with two columns of examples"
+  },
+  {
+    "id": 2,
+    "title": "The 50-30-20 Split",
+    "topic": "50-30-20",
+    "image": "/images/infographic-503020.svg",
+    "caption": "How three simple slices divide a monthly income.",
+    "alt": "Pie chart infographic showing 50 percent needs, 30 percent wants and 20 percent savings"
+  },
+  {
+    "id": 3,
+    "title": "Monthly Budget Cycle",
+    "topic": "budgeting",
+    "image": "/images/infographic-budget-cycle.svg",
+    "caption": "Plan, track, review - the repeating loop of a healthy budget.",
+    "alt": "Circular diagram of the monthly budget cycle: plan, spend, track and review"
+  },
+  {
+    "id": 4,
+    "title": "30-Day Saving Challenge",
+    "topic": "saving-challenges",
+    "image": "/images/infographic-saving-challenge.svg",
+    "caption": "Small daily savings that add up over a full month.",
+    "alt": "Infographic outlining a 30 day saving challenge with daily milestones"
+  },
+  {
+    "id": 5,
+    "title": "Spot the Need or Want",
+    "topic": "needs-wants",
+    "image": "/images/spot-needs-wants.svg",
+    "caption": "Quick visual quiz of everyday items sorted into needs and wants.",
+    "alt": "Illustration sorting everyday items into needs and wants columns"
+  },
+  {
+    "id": 6,
+    "title": "50-30-20 at a Glance",
+    "topic": "50-30-20",
+    "image": "/images/spot-503020.svg",
+    "caption": "One-look reminder of the three budget buckets.",
+    "alt": "Simple illustration of three budget buckets labelled 50, 30 and 20 percent"
+  },
+  {
+    "id": 7,
+    "title": "Savings Spotlight",
+    "topic": "saving-challenges",
+    "image": "/images/spot-savings.svg",
+    "caption": "A coin jar spotlight on watching your savings grow.",
+    "alt": "Illustration of a coin jar filling up to represent growing savings"
+  },
+  {
+    "id": 8,
+    "title": "Plan Your Month Calendar",
+    "topic": "budgeting",
+    "image": "/images/spot-calendar.svg",
+    "caption": "Calendar view for marking pay days, bill days and review days.",
+    "alt": "Calendar illustration highlighting budget check-in days across the month"
+  }
+]

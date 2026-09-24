@@ -1,0 +1,7 @@
+[
+  { "id": 1, "label": "Hostel or flat rent", "answer": "need", "explain": "Housing is essential - it is the same obligation every month." },
+  { "id": 2, "label": "Latest phone upgrade", "answer": "want", "explain": "An upgrade is optional while your current phone still works." },
+  { "id": 3, "label": "Monthly bus pass", "answer": "need", "explain": "Reliable transport to class is part of your study needs." },
+  { "id": 4, "label": "Friday night concert", "answer": "want", "explain": "Entertainment is a classic want - enjoy it from your 30 percent slice." },
+  { "id": 5, "label": "Prescription medicine", "answer": "need", "explain": "Health costs come before any optional spending." }
+]

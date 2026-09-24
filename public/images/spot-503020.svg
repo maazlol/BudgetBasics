@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="50 30 20 budget donut chart">
+  <rect width="480" height="360" fill="#F3F2EE"/>
+  <rect x="12" y="12" width="456" height="336" rx="24" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+
+  <text x="240" y="58" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#2A2633">50 / 30 / 20 Split</text>
+  <text x="240" y="84" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#6E687A">Needs / Wants / Savings</text>
+
+  <g transform="translate(240 210)">
+    <circle r="86" fill="none" stroke="#E4DFD7" stroke-width="34"/>
+    <circle r="86" fill="none" stroke="#6F8FA6" stroke-width="34" stroke-dasharray="270.176 540.352" stroke-dashoffset="0" transform="rotate(-90)"/>
+    <circle r="86" fill="none" stroke="#D6A443" stroke-width="34" stroke-dasharray="162.106 540.352" stroke-dashoffset="-270.176" transform="rotate(-90)"/>
+    <circle r="86" fill="none" stroke="#575091" stroke-width="34" stroke-dasharray="108.070 540.352" stroke-dashoffset="-432.282" transform="rotate(-90)"/>
+    <circle r="58" fill="#FFFFFF"/>
+    <text y="0" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="30" font-weight="800" fill="#2A2633">50/30/20</text>
+    <text y="26" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="13" font-weight="600" fill="#6E687A">rule of thumb</text>
+  </g>
+
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="13" font-weight="600">
+    <rect x="70" y="308" width="16" height="16" rx="4" fill="#6F8FA6"/>
+    <text x="94" y="321" fill="#6E687A">Needs 50%</text>
+    <rect x="196" y="308" width="16" height="16" rx="4" fill="#D6A443"/>
+    <text x="220" y="321" fill="#6E687A">Wants 30%</text>
+    <rect x="320" y="308" width="16" height="16" rx="4" fill="#575091"/>
+    <text x="344" y="321" fill="#6E687A">Save 20%</text>
+  </g>
+</svg>

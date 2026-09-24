@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="Budget calendar with completed days">
+  <rect width="480" height="360" fill="#F3F2EE"/>
+  <rect x="12" y="12" width="456" height="336" rx="24" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+
+  <rect x="70" y="52" width="340" height="264" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="3"/>
+  <path d="M70 72 Q70 52 90 52 L390 52 Q410 52 410 72 L410 104 L70 104 Z" fill="#575091"/>
+  <rect x="112" y="40" width="14" height="28" rx="7" fill="#464078"/>
+  <rect x="354" y="40" width="14" height="28" rx="7" fill="#464078"/>
+  <text x="240" y="88" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">March Budget</text>
+
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="12" font-weight="600" fill="#6E687A" text-anchor="middle">
+    <text x="118" y="128">M</text>
+    <text x="166" y="128">T</text>
+    <text x="214" y="128">W</text>
+    <text x="262" y="128">T</text>
+    <text x="310" y="128">F</text>
+    <text x="358" y="128">S</text>
+  </g>
+
+  <g>
+    <g fill="#F3F2EE" stroke="#E4DFD7" stroke-width="1.5">
+      <rect x="94" y="140" width="48" height="40" rx="10"/>
+      <rect x="142" y="140" width="48" height="40" rx="10"/>
+      <rect x="190" y="140" width="48" height="40" rx="10"/>
+      <rect x="238" y="140" width="48" height="40" rx="10"/>
+      <rect x="286" y="140" width="48" height="40" rx="10"/>
+      <rect x="334" y="140" width="48" height="40" rx="10"/>
+      <rect x="94" y="186" width="48" height="40" rx="10"/>
+      <rect x="142" y="186" width="48" height="40" rx="10"/>
+      <rect x="190" y="186" width="48" height="40" rx="10"/>
+      <rect x="238" y="186" width="48" height="40" rx="10"/>
+      <rect x="286" y="186" width="48" height="40" rx="10"/>
+      <rect x="334" y="186" width="48" height="40" rx="10"/>
+      <rect x="94" y="232" width="48" height="40" rx="10"/>
+      <rect x="142" y="232" width="48" height="40" rx="10"/>
+      <rect x="190" y="232" width="48" height="40" rx="10"/>
+      <rect x="238" y="232" width="48" height="40" rx="10"/>
+      <rect x="286" y="232" width="48" height="40" rx="10"/>
+      <rect x="334" y="232" width="48" height="40" rx="10"/>
+      <rect x="94" y="278" width="48" height="28" rx="10"/>
+      <rect x="142" y="278" width="48" height="28" rx="10"/>
+      <rect x="190" y="278" width="48" height="28" rx="10"/>
+      <rect x="238" y="278" width="48" height="28" rx="10"/>
+      <rect x="286" y="278" width="48" height="28" rx="10"/>
+      <rect x="334" y="278" width="48" height="28" rx="10"/>
+    </g>
+
+    <rect x="238" y="186" width="48" height="40" rx="10" fill="#D6A443"/>
+    <text x="262" y="212" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">15</text>
+
+    <g stroke="#4E8B6E" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M108 162 L114 168 L128 154"/>
+      <path d="M156 162 L162 168 L176 154"/>
+      <path d="M204 162 L210 168 L224 154"/>
+      <path d="M300 162 L306 168 L320 154"/>
+      <path d="M108 208 L114 214 L128 200"/>
+      <path d="M204 208 L210 214 L224 200"/>
+      <path d="M300 208 L306 214 L320 200"/>
+      <path d="M348 208 L354 214 L368 200"/>
+      <path d="M156 254 L162 260 L176 246"/>
+    </g>
+
+    <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="13" font-weight="600" fill="#6E687A" text-anchor="middle">
+      <text x="118" y="166">1</text>
+      <text x="358" y="166">6</text>
+      <text x="118" y="212">7</text>
+      <text x="214" y="212">9</text>
+      <text x="358" y="212">12</text>
+      <text x="118" y="258">13</text>
+      <text x="166" y="258">14</text>
+      <text x="310" y="258">17</text>
+      <text x="358" y="258">18</text>
+    </g>
+  </g>
+</svg>

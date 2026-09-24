@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="Empty state open box and magnifying glass">
+  <rect width="480" height="360" fill="#F3F2EE"/>
+  <rect x="12" y="12" width="456" height="336" rx="24" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+
+  <g>
+    <path d="M150 210 L240 246 L330 210 L330 262 Q330 274 318 274 L162 274 Q150 274 150 262 Z" fill="#EEECF6" stroke="#E4DFD7" stroke-width="3"/>
+    <path d="M150 210 L116 190 Q110 186 116 180 L186 152 Q196 148 204 154 L240 178" fill="#F3F2EE" stroke="#E4DFD7" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M330 210 L364 190 Q370 186 364 180 L294 152 Q284 148 276 154 L240 178" fill="#F3F2EE" stroke="#E4DFD7" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="228" y="178" width="24" height="96" rx="8" fill="#D6A443"/>
+    <rect x="150" y="230" width="180" height="14" rx="7" fill="#E4DFD7"/>
+  </g>
+
+  <g>
+    <circle cx="330" cy="130" r="38" fill="#EEECF6" stroke="#6E687A" stroke-width="6"/>
+    <rect x="354" y="154" width="16" height="46" rx="8" transform="rotate(-45 362 177)" fill="#6E687A"/>
+    <circle cx="318" cy="118" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <g fill="#E4DFD7">
+    <circle cx="130" cy="110" r="7"/>
+    <circle cx="158" cy="86" r="5"/>
+    <circle cx="112" cy="140" r="4"/>
+  </g>
+
+  <text x="240" y="304" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#2A2633">Nothing here yet</text>
+  <text x="240" y="330" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="500" fill="#6E687A">Add your first item to get started</text>
+</svg>

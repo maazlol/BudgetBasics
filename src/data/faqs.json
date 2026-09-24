@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "What is a budget and why does it matter?",
+    "answer": "A budget is a simple plan that tells your money where to go before the month starts. For students, it shows whether income covers rent, food and study costs, and how much is left for fun or saving. Without a plan, small spends quietly eat the whole month."
+  },
+  {
+    "id": 2,
+    "question": "What counts as a need versus a want?",
+    "answer": "Needs are essentials for living and studying safely: housing, groceries, medicine, school fees and basic transport. Wants are optional things that make life more enjoyable, like branded sneakers, gadgets, fast food and concerts. A useful test: could you skip it this month without real trouble? If yes, it is probably a want."
+  },
+  {
+    "id": 3,
+    "question": "How does the 50-30-20 rule work?",
+    "answer": "The 50-30-20 rule splits take-home income into three parts: 50 percent for needs, 30 percent for wants and 20 percent for savings or debt repayment. It is a beginner-friendly guideline, not a strict law - adjust the percentages to your income and goals. This is general educational information, not professional financial advice."
+  },
+  {
+    "id": 4,
+    "question": "How much should a student try to save each month?",
+    "answer": "There is no single correct number. A common learning target is around 20 percent of income (the savings slice of 50-30-20), but even a small fixed amount like Rs 500 or Rs 1,000 builds the habit. Start with what your budget honestly allows after needs, then increase slowly. This is general educational information, not professional financial advice."
+  },
+  {
+    "id": 5,
+    "question": "What is a savings goal and how do I set one?",
+    "answer": "A savings goal is a specific target you are putting money aside for, such as a laptop, a trip or an emergency buffer. To set one, name the goal, pick a target amount, note a deadline, then divide the remaining amount by the months available to find your monthly contribution. Clear numbers make saving much easier to stick to."
+  },
+  {
+    "id": 6,
+    "question": "What are the most common money mistakes students make?",
+    "answer": "The big ones are: impulse buying, ignoring small daily expenses, paying bills late, keeping subscriptions they never use, and spending with no plan at all. Most of these come down to the same fix - a written budget and a quick weekly review of what you spent."
+  },
+  {
+    "id": 7,
+    "question": "How can I stop overspending mid-month?",
+    "answer": "First, check which category is draining first - usually food or entertainment. Set a hard cap for that category, switch to cash or a separate limit for it, and pause non-essential buys for a few days. Also plan a weekly check-in so small overspending gets caught before it becomes a crisis."
+  },
+  {
+    "id": 8,
+    "question": "What is the difference between fixed and variable expenses?",
+    "answer": "Fixed expenses stay about the same every month, like rent, a phone plan or course fees. Variable expenses change from month to month, like groceries, transport, eating out and shopping. Knowing the difference helps you plan: fixed costs are easy to schedule, variable costs need caps and tracking."
+  }
+]

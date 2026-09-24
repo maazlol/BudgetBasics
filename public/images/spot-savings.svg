@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="Savings jar with coins and progress">
+  <rect width="480" height="360" fill="#F3F2EE"/>
+  <rect x="12" y="12" width="456" height="336" rx="24" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+
+  <text x="240" y="56" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="22" font-weight="700" fill="#2A2633">Grow Your Savings</text>
+
+  <g>
+    <rect x="160" y="110" width="160" height="140" rx="30" fill="#EEECF6" stroke="#575091" stroke-width="4"/>
+    <rect x="196" y="94" width="88" height="26" rx="12" fill="#464078"/>
+    <rect x="176" y="196" width="128" height="40" rx="14" fill="#575091"/>
+    <text x="240" y="222" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Rs 3,000</text>
+
+    <ellipse cx="240" cy="176" rx="34" ry="34" fill="#D6A443"/>
+    <ellipse cx="240" cy="176" rx="24" ry="24" fill="#E8C170"/>
+    <text x="240" y="182" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="16" font-weight="800" fill="#464078">Rs</text>
+
+    <ellipse cx="128" cy="232" rx="26" ry="26" fill="#D6A443"/>
+    <ellipse cx="128" cy="232" rx="18" ry="18" fill="#E8C170"/>
+    <text x="128" y="238" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="13" font-weight="800" fill="#464078">5</text>
+    <ellipse cx="100" cy="252" rx="22" ry="22" fill="#C67A3D"/>
+    <ellipse cx="100" cy="252" rx="15" ry="15" fill="#E8C170"/>
+    <text x="100" y="257" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="12" font-weight="800" fill="#464078">2</text>
+  </g>
+
+  <g>
+    <rect x="348" y="120" width="6" height="130" rx="3" fill="#464078"/>
+    <path d="M354 122 L410 140 L354 160 Z" fill="#D6A443"/>
+    <path d="M354 168 L400 182 L354 200 Z" fill="#575091"/>
+    <circle cx="351" cy="120" r="8" fill="#2A2633"/>
+    <circle cx="351" cy="250" r="8" fill="#2A2633"/>
+  </g>
+
+  <g>
+    <rect x="70" y="290" width="340" height="22" rx="11" fill="#EEECF6" stroke="#E4DFD7" stroke-width="2"/>
+    <rect x="74" y="294" width="200" height="14" rx="7" fill="#4E8B6E"/>
+    <circle cx="274" cy="301" r="12" fill="#FFFFFF" stroke="#4E8B6E" stroke-width="4"/>
+    <text x="240" y="336" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="13" font-weight="600" fill="#6E687A">60% toward your goal</text>
+  </g>
+</svg>

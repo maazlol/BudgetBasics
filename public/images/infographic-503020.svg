@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-label="The 50 30 20 Rule infographic">
+  <rect width="900" height="675" fill="#F3F2EE"/>
+  <rect x="30" y="30" width="840" height="615" rx="28" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="3"/>
+
+  <path d="M30 58 Q30 30 58 30 L842 30 Q870 30 870 58 L870 118 L30 118 Z" fill="#D6A443"/>
+  <text x="450" y="88" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="36" font-weight="800" fill="#FFFFFF">The 50-30-20 Rule</text>
+
+  <g transform="translate(270 350)">
+    <circle r="150" fill="none" stroke="#E4DFD7" stroke-width="52"/>
+    <circle r="150" fill="none" stroke="#6F8FA6" stroke-width="52" stroke-dasharray="471.239 942.478" stroke-dashoffset="0" transform="rotate(-90)"/>
+    <circle r="150" fill="none" stroke="#D6A443" stroke-width="52" stroke-dasharray="282.743 942.478" stroke-dashoffset="-471.239" transform="rotate(-90)"/>
+    <circle r="150" fill="none" stroke="#575091" stroke-width="52" stroke-dasharray="188.496 942.478" stroke-dashoffset="-753.982" transform="rotate(-90)"/>
+    <circle r="102" fill="#FFFFFF"/>
+    <text y="-6" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="34" font-weight="800" fill="#2A2633">Rs 15,000</text>
+    <text y="26" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="16" font-weight="600" fill="#6E687A">monthly income</text>
+    <text y="54" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#6E687A">split your pay</text>
+  </g>
+
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif">
+    <rect x="500" y="170" width="340" height="86" rx="18" fill="#EEECF6" stroke="#E4DFD7" stroke-width="2"/>
+    <rect x="524" y="196" width="34" height="34" rx="10" fill="#6F8FA6"/>
+    <text x="541" y="219" text-anchor="middle" font-size="16" font-weight="800" fill="#FFFFFF">50</text>
+    <text x="578" y="208" font-size="20" font-weight="700" fill="#2A2633">Needs</text>
+    <text x="578" y="236" font-size="18" font-weight="600" fill="#6E687A">Rs 7,500</text>
+
+    <rect x="500" y="274" width="340" height="86" rx="18" fill="#F7F0E4" stroke="#E4DFD7" stroke-width="2"/>
+    <rect x="524" y="300" width="34" height="34" rx="10" fill="#D6A443"/>
+    <text x="541" y="323" text-anchor="middle" font-size="16" font-weight="800" fill="#FFFFFF">30</text>
+    <text x="578" y="312" font-size="20" font-weight="700" fill="#2A2633">Wants</text>
+    <text x="578" y="340" font-size="18" font-weight="600" fill="#6E687A">Rs 4,500</text>
+
+    <rect x="500" y="378" width="340" height="86" rx="18" fill="#EEECF6" stroke="#E4DFD7" stroke-width="2"/>
+    <rect x="524" y="404" width="34" height="34" rx="10" fill="#575091"/>
+    <text x="541" y="427" text-anchor="middle" font-size="16" font-weight="800" fill="#FFFFFF">20</text>
+    <text x="578" y="416" font-size="20" font-weight="700" fill="#2A2633">Savings</text>
+    <text x="578" y="444" font-size="18" font-weight="600" fill="#6E687A">Rs 3,000</text>
+
+    <rect x="500" y="482" width="340" height="70" rx="18" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+    <text x="524" y="512" font-size="16" font-weight="700" fill="#2A2633">Income</text>
+    <text x="524" y="536" font-size="16" font-weight="600" fill="#6E687A">Rs 15,000 total</text>
+    <circle cx="796" cy="517" r="22" fill="#4E8B6E"/>
+    <path d="M786 517 L794 525 L808 509" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <rect x="70" y="580" width="760" height="40" rx="12" fill="#EEECF6"/>
+  <text x="450" y="607" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="16" font-weight="600" fill="#6E687A">Learning only - adjust to your situation</text>
+</svg>

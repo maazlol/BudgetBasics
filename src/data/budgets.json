@@ -1,0 +1,60 @@
+{
+  "monthlyIncome": 15000,
+  "currency": "Rs",
+  "categories": [
+    {
+      "name": "Part-time income",
+      "type": "income",
+      "amount": 15000,
+      "note": "Allowance plus campus job combined"
+    },
+    {
+      "name": "Rent (shared flat)",
+      "type": "fixed",
+      "amount": 4000,
+      "note": "Share of room rent, same every month"
+    },
+    {
+      "name": "Food",
+      "type": "variable",
+      "amount": 3000,
+      "note": "Groceries and daily meals"
+    },
+    {
+      "name": "Transport",
+      "type": "variable",
+      "amount": 1500,
+      "note": "Bus pass and occasional rides"
+    },
+    {
+      "name": "Education",
+      "type": "fixed",
+      "amount": 2000,
+      "note": "Course fees and study material plan"
+    },
+    {
+      "name": "Entertainment",
+      "type": "variable",
+      "amount": 1000,
+      "note": "Movies and outings with friends"
+    },
+    {
+      "name": "Shopping",
+      "type": "variable",
+      "amount": 800,
+      "note": "Clothes and personal items"
+    },
+    {
+      "name": "Utilities",
+      "type": "variable",
+      "amount": 700,
+      "note": "Electricity and internet share"
+    },
+    {
+      "name": "Savings",
+      "type": "savings",
+      "amount": 2000,
+      "note": "Emergency buffer and goals"
+    }
+  ]
+}

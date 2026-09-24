@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" role="img" aria-label="Needs versus wants split illustration">
+  <rect width="480" height="360" fill="#F3F2EE"/>
+  <rect x="12" y="12" width="456" height="336" rx="24" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+
+  <rect x="14" y="14" width="224" height="332" rx="22" fill="#EEECF6"/>
+  <rect x="242" y="14" width="224" height="332" rx="22" fill="#F7F0E4"/>
+  <rect x="236" y="40" width="8" height="280" rx="4" fill="#E4DFD7"/>
+
+  <text x="126" y="60" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#464078">Needs</text>
+  <text x="354" y="60" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#464078">Wants</text>
+
+  <g>
+    <rect x="66" y="110" width="120" height="100" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+    <path d="M96 176 L96 146 L126 122 L156 146 L156 176 Z" fill="#575091"/>
+    <rect x="114" y="154" width="24" height="22" rx="4" fill="#EEECF6"/>
+    <rect x="132" y="134" width="14" height="18" rx="4" fill="#464078"/>
+    <text x="126" y="240" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#6E687A">Shelter</text>
+  </g>
+
+  <g>
+    <rect x="66" y="256" width="120" height="70" rx="18" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+    <circle cx="112" cy="292" r="20" fill="#4E8B6E"/>
+    <path d="M112 272 C112 264 120 262 124 264" fill="none" stroke="#464078" stroke-width="4" stroke-linecap="round"/>
+    <path d="M124 264 C130 260 136 264 134 272" fill="none" stroke="#D6A443" stroke-width="4" stroke-linecap="round"/>
+    <text x="148" y="298" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#6E687A">Food</text>
+  </g>
+
+  <g>
+    <rect x="294" y="110" width="120" height="100" rx="20" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+    <rect x="324" y="146" width="60" height="46" rx="8" fill="#D6A443"/>
+    <rect x="324" y="136" width="60" height="16" rx="6" fill="#C67A3D"/>
+    <rect x="350" y="136" width="8" height="56" fill="#F7F0E4"/>
+    <path d="M354 136 C344 136 340 124 350 124 C358 124 354 136 354 136 Z" fill="#B85450"/>
+    <path d="M354 136 C364 136 368 124 358 124 C350 124 354 136 354 136 Z" fill="#B85450"/>
+    <text x="354" y="216" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#6E687A">Gifts</text>
+  </g>
+
+  <g>
+    <rect x="294" y="256" width="120" height="70" rx="18" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="2"/>
+    <circle cx="336" cy="291" r="22" fill="#6F8FA6"/>
+    <path d="M318 282 L354 282 M318 300 L354 300 M336 269 L336 313" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M322 273 C330 280 330 302 322 309" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M350 273 C342 280 342 302 350 309" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    <text x="376" y="297" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="14" font-weight="600" fill="#6E687A">Play</text>
+  </g>
+</svg>

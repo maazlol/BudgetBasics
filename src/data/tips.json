@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Pay yourself first",
+    "text": "Move a fixed amount into savings the day your allowance or part-time pay arrives, before any other spending happens.",
+    "topic": "saving"
+  },
+  {
+    "id": 2,
+    "title": "Track every coffee",
+    "text": "Small daily buys add up quickly. Writing down each coffee, snack or short ride for one month shows exactly where your money leaks.",
+    "topic": "expenses"
+  },
+  {
+    "id": 3,
+    "title": "Use the 50-30-20 starter split",
+    "text": "A simple beginner guideline: 50 percent of income for needs, 30 percent for wants and 20 percent for savings. Adjust the shares to fit your situation.",
+    "topic": "budgeting"
+  },
+  {
+    "id": 4,
+    "title": "Cover needs before wants",
+    "text": "Plan rent, food, transport and study costs first. Optional spending should only get whatever is left after the essentials are covered.",
+    "topic": "needs"
+  },
+  {
+    "id": 5,
+    "title": "Automate a small saver amount",
+    "text": "Even a tiny amount moved to savings every week builds the habit. Consistency matters more than the size of the deposit.",
+    "topic": "saving"
+  },
+  {
+    "id": 6,
+    "title": "Make savings goals specific",
+    "text": "A goal like Rs 5,000 for a laptop in six months is easier to stick to than just save more. Name the target, amount and deadline.",
+    "topic": "goals"
+  },
+  {
+    "id": 7,
+    "title": "Do a weekly money check-in",
+    "text": "Spend ten minutes each week reviewing what came in and what went out. Small corrections early prevent a stressful end of the month.",
+    "topic": "budgeting"
+  },
+  {
+    "id": 8,
+    "title": "Cancel what you never use",
+    "text": "Unused subscriptions quietly drain a student budget. Review streaming, apps and memberships every few months and cut the dead weight.",
+    "topic": "expenses"
+  },
+  {
+    "id": 9,
+    "title": "Build a tiny emergency buffer",
+    "text": "Save a small cushion, even one week of expenses, before chasing bigger goals. One surprise should not break your whole budget.",
+    "topic": "saving"
+  },
+  {
+    "id": 10,
+    "title": "Wait 48 hours on wants",
+    "text": "When something feels urgent, give it two days. If you still want it and your wants budget allows it, buy it guilt-free. If not, you just saved money.",
+    "topic": "needs"
+  },
+  {
+    "id": 11,
+    "title": "Give every category a cap",
+    "text": "Set a limit for food, transport and fun at the start of the month. When a cap is reached, that category waits until next month.",
+    "topic": "budgeting"
+  },
+  {
+    "id": 12,
+    "title": "Celebrate small goal wins",
+    "text": "When you hit a milestone, mark it with a free or low-cost reward. Positive feedback makes saving feel worthwhile instead of painful.",
+    "topic": "goals"
+  }
+]

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-label="Needs versus Wants educational infographic">
+  <rect width="900" height="675" fill="#F3F2EE"/>
+  <rect x="30" y="30" width="840" height="615" rx="28" fill="#FFFFFF" stroke="#E4DFD7" stroke-width="3"/>
+
+  <path d="M30 58 Q30 30 58 30 L842 30 Q870 30 870 58 L870 118 L30 118 Z" fill="#575091"/>
+  <text x="450" y="88" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="36" font-weight="800" fill="#FFFFFF">Needs vs Wants</text>
+
+  <rect x="70" y="150" width="370" height="52" rx="16" fill="#575091"/>
+  <text x="255" y="185" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Needs</text>
+  <rect x="460" y="150" width="370" height="52" rx="16" fill="#D6A443"/>
+  <text x="645" y="185" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF">Wants</text>
+
+  <g font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="17" font-weight="600">
+    <g fill="#EEECF6">
+      <rect x="70" y="220" width="370" height="56" rx="14"/>
+      <rect x="70" y="286" width="370" height="56" rx="14"/>
+      <rect x="70" y="352" width="370" height="56" rx="14"/>
+      <rect x="70" y="418" width="370" height="56" rx="14"/>
+      <rect x="70" y="484" width="370" height="56" rx="14"/>
+    </g>
+    <g fill="#F7F0E4">
+      <rect x="460" y="220" width="370" height="56" rx="14"/>
+      <rect x="460" y="286" width="370" height="56" rx="14"/>
+      <rect x="460" y="352" width="370" height="56" rx="14"/>
+      <rect x="460" y="418" width="370" height="56" rx="14"/>
+      <rect x="460" y="484" width="370" height="56" rx="14"/>
+    </g>
+
+    <g fill="#464078">
+      <circle cx="104" cy="248" r="16" fill="#575091"/>
+      <text x="104" y="254" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+      <text x="134" y="254">Rent or home costs</text>
+
+      <circle cx="104" cy="314" r="16" fill="#575091"/>
+      <text x="104" y="320" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+      <text x="134" y="320">Groceries and food</text>
+
+      <circle cx="104" cy="380" r="16" fill="#575091"/>
+      <text x="104" y="386" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+      <text x="134" y="386">Basic utilities &amp; bills</text>
+
+      <circle cx="104" cy="446" r="16" fill="#575091"/>
+      <text x="104" y="452" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+      <text x="134" y="452">Health and medicines</text>
+
+      <circle cx="104" cy="512" r="16" fill="#575091"/>
+      <text x="104" y="518" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+      <text x="134" y="518">Study or work travel</text>
+    </g>
+
+    <g fill="#464078">
+      <circle cx="494" cy="248" r="16" fill="#D6A443"/>
+      <text x="494" y="254" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+      <text x="524" y="254">Extra streaming apps</text>
+
+      <circle cx="494" cy="314" r="16" fill="#D6A443"/>
+      <text x="494" y="320" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+      <text x="524" y="320">Latest phone upgrade</text>
+
+      <circle cx="494" cy="380" r="16" fill="#D6A443"/>
+      <text x="494" y="386" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+      <text x="524" y="386">Eating out often</text>
+
+      <circle cx="494" cy="446" r="16" fill="#D6A443"/>
+      <text x="494" y="452" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+      <text x="524" y="452">Fashion splurges</text>
+
+      <circle cx="494" cy="512" r="16" fill="#D6A443"/>
+      <text x="494" y="518" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+      <text x="524" y="518">Impulse gadgets</text>
+    </g>
+  </g>
+
+  <rect x="70" y="568" width="760" height="52" rx="16" fill="#EEECF6" stroke="#E4DFD7" stroke-width="2"/>
+  <text x="450" y="601" text-anchor="middle" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="20" font-weight="700" fill="#575091">Ask: Will my life stop without it?</text>
+</svg>
