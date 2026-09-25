@@ -8,6 +8,7 @@ const learnLinks = [
   { to: '/savings-goals', label: 'Savings Goals' },
   { to: '/expense-planner', label: 'Expense Planner' },
   { to: '/money-mistakes', label: 'Money Mistakes' },
+  { to: '/money-persona', label: 'Money Persona Quiz' },
 ]
 
 const companyLinks = [
@@ -24,6 +25,7 @@ const sitemapLinks = [
   { to: '/savings-goals', label: 'Savings Goals' },
   { to: '/expense-planner', label: 'Expense Planner' },
   { to: '/money-mistakes', label: 'Money Mistakes' },
+  { to: '/money-persona', label: 'Money Persona' },
   { to: '/gallery', label: 'Gallery' },
   { to: '/search', label: 'Search' },
 ]
@@ -35,6 +37,13 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-col footer-brand">
             <Link to="/" className="brand">
+              <img
+                className="brand-mark"
+                src="/images/black-logo.png"
+                alt=""
+                width="34"
+                height="34"
+              />
               <span className="brand-text">
                 <h2>BudgetBasics</h2>
                 <span className="footer-tagline">Learn - Plan - Grow</span>

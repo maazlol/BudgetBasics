@@ -30,6 +30,15 @@
   width: 34px;
   height: 34px;
   flex-shrink: 0;
+  object-fit: contain;
+}
+
+/* Dark backgrounds need a light tile behind the black bee logo */
+.dark-mode .brand-mark,
+.site-footer .brand-mark {
+  background: #fff;
+  border-radius: 9px;
+  padding: 3px;
 }
 
 .brand-text { display: flex; flex-direction: column; line-height: 1.1; }
@@ -170,13 +179,13 @@
 /* Ticker */
 .ticker {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 16px;
-  height: 40px;
+  gap: 4px 16px;
+  min-height: 40px;
   background: var(--tint-sand);
   border-bottom: 1px solid var(--border);
-  padding: 0 24px;
-  overflow: hidden;
+  padding: 7px 24px;
 }
 
 .ticker-tip {
@@ -184,14 +193,16 @@
   align-items: center;
   gap: 10px;
   min-width: 0;
-  flex: 1;
+  flex: 1 1 380px;
   font-size: 13px;
+  line-height: 19px;
   color: var(--body);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   transition: transform 0.35s ease;
 }
+
+.ticker-tip > span { min-width: 0; }
+
+.ticker .badge { flex-shrink: 0; }
 
 .ticker-tip.fade { transform: translateY(-6px); }
 
@@ -207,6 +218,7 @@
   color: var(--muted);
   font-variant-numeric: tabular-nums;
   flex-shrink: 0;
+  margin-left: auto;
 }
 
 .ticker-visitors {
@@ -214,15 +226,26 @@
   font-weight: 600;
   color: var(--muted);
   flex-shrink: 0;
-  margin-right: 15px;
   white-space: nowrap;
 }
 
 .ticker-visitors i { margin-right: 6px; }
 
+@media (max-width: 900px) {
+  .ticker-tip { flex: 1 1 100%; }
+}
+
 @media (max-width: 600px) {
-  .ticker-clock { display: none; }
-  .ticker-visitors { display: none; }
+  .ticker {
+    gap: 5px 12px;
+    padding: 8px 16px;
+  }
+  .ticker-tip {
+    font-size: 12.5px;
+    line-height: 18px;
+  }
+  .ticker-clock,
+  .ticker-visitors { font-size: 11.5px; }
 }
 
 /* Modal */

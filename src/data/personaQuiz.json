@@ -1,0 +1,123 @@
+{
+  "personas": [
+    {
+      "key": "planner",
+      "title": "The Planner",
+      "tone": "blue",
+      "icon": "bi-journal-check",
+      "tagline": "You like your money to have a job description.",
+      "text": "You decide before the month starts instead of during it. That is the strongest habit in this whole project - just leave a little room for surprises so one bad day does not break the whole plan.",
+      "tips": [
+        "Keep a small unlabelled buffer line in your budget so surprises do not break it.",
+        "Review once a week, not every day - planning should not turn into worrying.",
+        "Add your savings transfer as the first line, not the last one left over."
+      ]
+    },
+    {
+      "key": "saver",
+      "title": "The Saver",
+      "tone": "mint",
+      "icon": "bi-piggy-bank",
+      "tagline": "Watching the balance go up is your favourite reward.",
+      "text": "You protect your future money first, which puts you ahead of most students. The risk is the opposite one: saving so tightly that you never enjoy the month, then splurging all at once.",
+      "tips": [
+        "Give the wants slice a name - a guilt-free treat is easier to stick to.",
+        "Name every goal with an amount and a date, otherwise saving drifts.",
+        "Hold one week of expenses as a buffer before chasing bigger targets."
+      ]
+    },
+    {
+      "key": "spender",
+      "title": "The Spender",
+      "tone": "gold",
+      "icon": "bi-bag-heart",
+      "tagline": "Money is for living, and you prove it often.",
+      "text": "You spend on moments and feelings, which is not a crime - but unplanned spending is what quietly empties a student budget. A few simple speed bumps change everything without killing the fun.",
+      "tips": [
+        "Use the 48 hour rule: wait two days, then buy it guilt-free if you still want it.",
+        "Set a hard cap for food and fun at the start of the month, then stop when it hits.",
+        "Move a fixed amount to savings the day money arrives, before spending starts."
+      ]
+    },
+    {
+      "key": "balancer",
+      "title": "The Balancer",
+      "tone": "violet",
+      "icon": "bi-scale",
+      "tagline": "Save a little, live a little, regret nothing.",
+      "text": "You naturally sit between saving and spending, which keeps you consistent over long stretches. Your blind spot is the small drift - lots of near-neutral decisions that never get reviewed.",
+      "tips": [
+        "Use 50-30-20 as your baseline so balance stays a choice, not an accident.",
+        "Do a ten minute money check-in each week to catch slow drift early.",
+        "Raise your savings share by one percent at a time instead of all at once."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "text": "It is mid-month and your balance dropped faster than you expected. First move?",
+      "options": [
+        { "id": "a", "text": "Open my tracker and find the category that broke", "lean": "planner" },
+        { "id": "b", "text": "Cancel the rest of the month's fun spending", "lean": "saver" },
+        { "id": "c", "text": "Shrug it off - next month will reset anyway", "lean": "spender" },
+        { "id": "d", "text": "Trim a little everywhere but keep my plans", "lean": "balancer" }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "You get an unexpected Rs 5,000 today. What happens first?",
+      "options": [
+        { "id": "a", "text": "Straight into savings - future me says thanks", "lean": "saver" },
+        { "id": "b", "text": "Add it to this month's plan and update the categories", "lean": "planner" },
+        { "id": "c", "text": "Treat myself, it is bonus money", "lean": "spender" },
+        { "id": "d", "text": "Split it - save half, enjoy half", "lean": "balancer" }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "How do you usually track what you spend?",
+      "options": [
+        { "id": "a", "text": "Same day, every entry written down", "lean": "planner" },
+        { "id": "b", "text": "I do not track - I just watch the balance drop", "lean": "spender" },
+        { "id": "c", "text": "Only transfers into my savings count", "lean": "saver" },
+        { "id": "d", "text": "Rough mental math with a glance each week", "lean": "balancer" }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "A friend suggests an expensive plan this weekend. Your move?",
+      "options": [
+        { "id": "a", "text": "Check my wants budget, then decide", "lean": "planner" },
+        { "id": "b", "text": "I go - experiences beat the price tag", "lean": "spender" },
+        { "id": "c", "text": "I decline and move the money to my goal", "lean": "saver" },
+        { "id": "d", "text": "I go, but pick a cheaper version of the plan", "lean": "balancer" }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "A sale lands on something you have wanted for months. What now?",
+      "options": [
+        { "id": "a", "text": "Buy it now - discounts do not wait", "lean": "spender" },
+        { "id": "b", "text": "Wait two days and check my goal progress", "lean": "saver" },
+        { "id": "c", "text": "Check whether it fits this month's plan and caps", "lean": "planner" },
+        { "id": "d", "text": "Buy a cheaper alternative instead", "lean": "balancer" }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "How often do you actually look at your savings goals?",
+      "options": [
+        { "id": "a", "text": "Once a week, at the same time", "lean": "planner" },
+        { "id": "b", "text": "Whenever I add money to them", "lean": "saver" },
+        { "id": "c", "text": "Rarely - I forget they exist", "lean": "spender" },
+        { "id": "d", "text": "About once a month, near month end", "lean": "balancer" }
+      ]
+    }
+  ],
+  "frequencies": [
+    { "key": "daily", "label": "Every day", "multiplier": 365, "unit": "a day" },
+    { "key": "weekly", "label": "Once a week", "multiplier": 52, "unit": "a week" },
+    { "key": "monthly", "label": "Once a month", "multiplier": 12, "unit": "a month" }
+  ]
+}

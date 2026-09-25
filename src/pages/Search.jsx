@@ -13,6 +13,7 @@ const modules = [
   { title: 'Savings Goals', path: '/savings-goals', desc: 'Set targets, timelines and milestones for the money you keep.' },
   { title: 'Expense Planner', path: '/expense-planner', desc: 'Plan monthly spending categories before the month starts.' },
   { title: 'Money Mistakes', path: '/money-mistakes', desc: 'Common traps like impulse buys, late fees and unused subscriptions.' },
+  { title: 'Money Persona Quiz', path: '/money-persona', desc: 'Six questions to find your spending type plus a round-up estimator.' },
   { title: 'Learning Gallery', path: '/gallery', desc: 'Infographics and visual guides for budgets, goals and saving.' },
   { title: 'About BudgetBasics', path: '/about', desc: 'How BudgetBasics helps you manage money and who built it.' },
 ]

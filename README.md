@@ -10,7 +10,7 @@ A student-friendly website can make financial concepts easier to understand by u
 
 BudgetBasics is a responsive educational Single Page Application built with React (Vite) and JavaScript. It helps students learn personal budgeting fundamentals through beginner-friendly guides, infographics, examples, and interactive financial awareness tools.
 
-The website covers budgeting basics, needs vs wants, the 50-30-20 rule, savings goals, an expense planner, common money mistakes, a learning gallery, and search/filter. It does not provide banking services or real financial transactions.
+The website covers budgeting basics, needs vs wants, the 50-30-20 rule, savings goals, an expense planner, common money mistakes, a learning gallery, a money persona quiz with a round-up estimator, and search/filter. It does not provide banking services or real financial transactions.
 
 There is no backend, database, login storage, or server-side data. Form submissions use client-side validation and show a confirmation message only. Content (tips, FAQs, budget examples, gallery items) lives in pre-populated JSON files under `src/data/`.
 
@@ -65,22 +65,30 @@ There is no backend, database, login storage, or server-side data. Form submissi
 - Readable captions and alternative text on all images
 - Filter the gallery by topic; modal view for a larger image
 
-### 8. Search, Sort, and Filter
+### 8. Money Persona Quiz and Round-up Estimator
+- Six everyday money questions, each answer leaning toward one of four personas: The Planner, The Saver, The Spender, The Balancer
+- Result card with score breakdown bars, a short profile, and three habits that fit the type
+- Round-up estimator: favourite thing, its price, and how often you buy it - shows the yearly cost, monthly cost, and what you keep by cutting it in half
+- Comparison against the sample wants slice, written as an educational estimate only
+- Runs on the Budgeting Basics page and as its own route (`/money-persona`)
+
+### 9. Search, Sort, and Filter
 - Search learning content by keywords (saving, needs, expenses, goals, and more)
 - Filter tips, examples, and infographics by topic
 - Clear message when no matching content is found
 
-### 9. About Us, Feedback, and Contact Us
+### 10. About Us, Feedback, and Contact Us
 - About: purpose of the website and creator information
 - Feedback form: name, email, star rating, comments - client-side validation only, then a confirmation message (nothing is stored or transmitted)
 - Contact form: name, email, subject, message with email format validation and confirmation
 - Contact information and social-style links displayed on the page
 
-### 10. Additional Website Features
+### 11. Additional Website Features
 - Responsive navigation menu with active, hover, and focus states
 - Dark mode with readable contrast
 - Smooth, subtle section transitions and learning cards
 - Financial tips ticker
+- Live chat help bubble on every page (tawk.to widget: greeting, quick replies and message thread handled by the hosted chat service)
 - Back-to-top control and clear footer navigation
 - Keyboard-accessible controls and visible focus indicators
 
@@ -92,7 +100,7 @@ There is no backend, database, login storage, or server-side data. Form submissi
 - **Chart.js 4 + react-chartjs-2** - 50-30-20 doughnut chart
 - **Bootstrap Icons** - all icons across the site (no emojis anywhere)
 - **Plus Jakarta Sans** - self-hosted woff2 fonts (headings and body)
-- **JSON** - tips, FAQs, budgets, classifier items, and gallery content
+- **JSON** - tips, FAQs, budgets, classifier items, gallery content, and persona quiz questions
 - **Local SVG illustrations** - original flat artwork under `public/images/` (no broken external image links)
 
 ## Tools We Used
@@ -112,7 +120,7 @@ BudgetBasics/
 │   ├── favicon.svg
 │   ├── robots.txt
 │   ├── fonts/                   (self-hosted Plus Jakarta Sans woff2)
-│   └── images/                  (photo WebP files, infographics, spot SVGs, empty-state)
+│   └── images/                  (photo WebP files, infographics, spot SVGs, empty-state, black-logo.png = site logo and favicon)
 ├── src/
 │   ├── main.jsx
 │   ├── App.jsx                 (routes, dark mode, shell layout)
@@ -135,12 +143,14 @@ BudgetBasics/
 │   │   ├── Feedback.jsx
 │   │   ├── Contact.jsx
 │   │   ├── About.jsx
+│   │   ├── PersonaQuiz.jsx
 │   │   └── Search.jsx
 │   ├── data/
 │   │   ├── tips.json
 │   │   ├── faqs.json
 │   │   ├── budgets.json
 │   │   ├── classifier.json
+│   │   ├── personaQuiz.json
 │   │   └── gallery.json
 │   ├── styles/
 │   │   ├── global.css
@@ -169,6 +179,7 @@ BudgetBasics/
 5. Calculations (50-30-20 split, savings timeline, expense totals) use labeled educational formulas with assumptions stated in the UI
 6. All illustrations are original local files so the site has no broken image links
 7. Dark mode is optional and session-only (not persisted unless the user toggles it again)
+8. The chat assistant is the hosted tawk.to widget, which the SRS allows under chatbot platforms; questions and replies are handled by that service, not by a knowledge base inside the site
 
 ## Project Scope Notes
 - No backend, database, server storage, login persistence, or payment integration

@@ -25,7 +25,10 @@
   color: var(--on-primary);
 }
 
-.btn-primary:hover { background: var(--primary-hover); }
+.btn-primary:hover {
+  background: var(--primary-hover);
+  color: var(--on-primary);
+}
 
 .btn-secondary {
   background: var(--surface);
@@ -33,14 +36,20 @@
   border-color: var(--primary);
 }
 
-.btn-secondary:hover { background: var(--tint-violet); }
+.btn-secondary:hover {
+  background: var(--tint-violet);
+  color: var(--primary);
+}
 
 .btn-accent {
   background: var(--accent);
   color: var(--heading);
 }
 
-.btn-accent:hover { background: var(--accent-hover); }
+.btn-accent:hover {
+  background: var(--accent-hover);
+  color: var(--heading);
+}
 
 .btn:disabled {
   opacity: 0.55;

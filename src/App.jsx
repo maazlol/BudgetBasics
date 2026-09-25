@@ -24,6 +24,7 @@ const Feedback = lazy(() => import('./pages/Feedback'))
 const Contact = lazy(() => import('./pages/Contact'))
 const About = lazy(() => import('./pages/About'))
 const Search = lazy(() => import('./pages/Search'))
+const PersonaQuiz = lazy(() => import('./pages/PersonaQuiz'))
 
 export default function App() {
   const [dark, setDark] = useState(false)
@@ -53,6 +54,7 @@ export default function App() {
             <Route path="/savings-goals" element={<SavingsGoals />} />
             <Route path="/expense-planner" element={<ExpensePlanner />} />
             <Route path="/money-mistakes" element={<MoneyMistakes />} />
+            <Route path="/money-persona" element={<PersonaQuiz withHero />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/contact" element={<Contact />} />
