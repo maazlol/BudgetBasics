@@ -51,6 +51,8 @@ There is no backend, database, login storage, or server-side data. Form submissi
 ### 5. Expense Planner
 - Add expense entries: date, category, description, amount
 - Categories: Food, Transport, Education, Entertainment, Shopping, Utilities, Miscellaneous
+- Editable starting balance (default Rs 20,000) in the Summary card, used to calculate the remaining amount
+- Starts empty with no pre-filled sample entries, so planned amounts are entered by the user
 - Temporary on-screen table for the current session only (refresh clears entries)
 - Edit and remove entries
 - Total planned expenses and remaining balance with over-budget warning
@@ -115,7 +117,9 @@ BudgetBasics/
 ├── index.html
 ├── netlify.toml
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
+├── .oxlintrc.json
 ├── public/
 │   ├── favicon.svg
 │   ├── robots.txt
@@ -152,14 +156,13 @@ BudgetBasics/
 │   │   ├── classifier.json
 │   │   ├── personaQuiz.json
 │   │   └── gallery.json
-│   ├── styles/
-│   │   ├── global.css
-│   │   ├── components.css
-│   │   ├── app-ui.css
-│   │   ├── pages.css
-│   │   ├── pages-tools.css
-│   │   └── pages-content.css
-│   └── assets/
+│   └── styles/
+│       ├── global.css
+│       ├── components.css
+│       ├── app-ui.css
+│       ├── pages.css
+│       ├── pages-tools.css
+│       └── pages-content.css
 └── README.md
 ```
 
@@ -174,12 +177,13 @@ BudgetBasics/
 ## Assumptions
 1. There is no server - form submissions are validated on the client and only show a confirmation message; nothing is saved or sent
 2. Expense planner entries live in component state for the current session only; a refresh clears them
-3. Visitor counter is simulated in the browser (not a real analytics service)
-4. Currency values use the label "Rs" and are example figures, not real financial data
-5. Calculations (50-30-20 split, savings timeline, expense totals) use labeled educational formulas with assumptions stated in the UI
-6. All illustrations are original local files so the site has no broken image links
-7. Dark mode is optional and session-only (not persisted unless the user toggles it again)
-8. The chat assistant is the hosted tawk.to widget, which the SRS allows under chatbot platforms; questions and replies are handled by that service, not by a knowledge base inside the site
+3. The starting balance defaults to Rs 20,000, can be edited in the Summary card, and resets to the default on refresh
+4. Visitor counter is simulated in the browser (not a real analytics service)
+5. Currency values use the label "Rs" and are example figures, not real financial data
+6. Calculations (50-30-20 split, savings timeline, expense totals) use labeled educational formulas with assumptions stated in the UI
+7. All illustrations are original local files so the site has no broken image links
+8. Dark mode is optional and session-only (not persisted unless the user toggles it again)
+9. The chat assistant is the hosted tawk.to widget, which the SRS allows under chatbot platforms; questions and replies are handled by that service, not by a knowledge base inside the site
 
 ## Project Scope Notes
 - No backend, database, server storage, login persistence, or payment integration
