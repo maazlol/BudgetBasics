@@ -26,13 +26,6 @@ const CATEGORY_COLORS = {
   Miscellaneous: '#B85450',
 }
 
-const SEED = [
-  { id: 1, date: '2026-09-01', category: 'Food', description: 'Weekly groceries', amount: 4500 },
-  { id: 2, date: '2026-09-03', category: 'Transport', description: 'Bus pass top-up', amount: 1200 },
-  { id: 3, date: '2026-09-05', category: 'Education', description: 'Course notes printing', amount: 800 },
-  { id: 4, date: '2026-09-08', category: 'Entertainment', description: 'Movie night', amount: 1500 },
-]
-
 const EMPTY = { date: '', category: 'Food', description: '', amount: '' }
 
 const PLANNER_TIPS = [
@@ -57,13 +50,19 @@ const PLANNER_TIPS = [
 ]
 
 export default function ExpensePlanner() {
-  const [entries, setEntries] = useState(SEED)
+  const [entries, setEntries] = useState([])
+  const [balance, setBalance] = useState(SAMPLE_BALANCE)
   const [open, setOpen] = useState(false)
   const [form, setForm] = useState(EMPTY)
   const [errors, setErrors] = useState({})
   const [editingId, setEditingId] = useState(null)
 
   const setField = (key) => (e) => setForm({ ...form, [key]: e.target.value })
+
+  const handleBalance = (e) => {
+    const value = Number(e.target.value)
+    setBalance(e.target.value === '' || Number.isNaN(value) ? 0 : Math.max(0, value))
+  }
 
   const clearForm = () => {
     setForm(EMPTY)
@@ -122,7 +121,7 @@ export default function ExpensePlanner() {
   }
 
   const total = entries.reduce((sum, x) => sum + x.amount, 0)
-  const remaining = SAMPLE_BALANCE - total
+  const remaining = balance - total
 
   return (
     <div className="tool-page">
@@ -273,7 +272,18 @@ export default function ExpensePlanner() {
 
         <div className="card summary-card">
           <h2>Summary</h2>
-          <div className="summary-row mt-2">
+          <div className="field mt-2">
+            <label htmlFor="exp-balance">Starting balance</label>
+            <input
+              id="exp-balance"
+              type="number"
+              min="0"
+              placeholder="e.g. 20000"
+              value={balance}
+              onChange={handleBalance}
+            />
+          </div>
+          <div className="summary-row mt-3">
             <span className="text-muted">Total planned</span>
             <strong>{money(total)}</strong>
           </div>
@@ -284,7 +294,7 @@ export default function ExpensePlanner() {
             </strong>
           </div>
           <p className="text-muted summary-note">
-            starting balance Rs 20,000
+            Type your own starting balance — the remaining amount updates as you plan.
           </p>
           {remaining < 0 && (
             <p className="over-budget over-note">
